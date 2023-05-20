@@ -10,7 +10,7 @@ En esta rama está disponible la versión de terminal y JavaFX con registro de d
 
 ## Consideraciones
 
-El código es la base de un ejercicio a partir del que hay que desarrollar el GUI con JavaFX y registro de los mensajes.
+Esto es un ejercicio de aprendizaje.
 
 
 [Chat](https://github.com/aetxabao/Chat)
