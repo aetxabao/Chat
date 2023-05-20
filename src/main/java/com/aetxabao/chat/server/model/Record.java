@@ -72,4 +72,18 @@ public class Record {
     public void setUsername(String username) {
         this.username = username;
     }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append(String.format("%-29s", timestamp));
+        sb.append(String.format("%15s", ip));
+        sb.append(" ".repeat(2));
+        sb.append(String.format("%-7d", port));
+        sb.append(" ".repeat(2));
+        sb.append(String.format("%-8s", username));
+        sb.append(" ".repeat(2));
+        sb.append(value);
+        return sb.toString();
+    }
 }

@@ -6,6 +6,13 @@ module com.masanz.chatnettyfx {
     requires io.netty.transport;
     requires io.netty.codec;
 
+    requires java.sql;
+
+    requires java.persistence;
+    requires org.hibernate.orm.core;
+    requires org.hibernate.commons.annotations;
+    requires java.naming;
+
     requires com.fasterxml.jackson.core;
     requires com.fasterxml.jackson.databind;
     exports com.aetxabao.chat.client.model.msg to com.fasterxml.jackson.databind;

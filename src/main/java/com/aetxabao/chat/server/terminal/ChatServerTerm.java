@@ -13,7 +13,8 @@ import io.netty.handler.codec.string.StringEncoder;
 
 import java.util.Scanner;
 
-import static com.aetxabao.chat.server.consts.AppConsts.*;
+import static com.aetxabao.chat.server.consts.AppConsts.LISTENING_PORT;
+import static com.aetxabao.chat.server.consts.AppConsts.PRIVATE_KEY;
 
 public final class ChatServerTerm {
 

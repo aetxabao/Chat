@@ -6,5 +6,4 @@ public class MainServer {
     public static void main(String[] args) {
         ServerApplication.main(args);
     }
-
 }

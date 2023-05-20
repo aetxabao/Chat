@@ -1,7 +1,7 @@
 pom.xml
 =======
 
-    <groupId>com.aetxabao</groupId>
+    <groupId>com.aetxabao.chat</groupId>
     <artifactId>ChatClientTerm</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>ChatClientTerm</name>
@@ -20,7 +20,7 @@ Manifest-Version: 1.0
 Main-Class: com.aetxabao.chat.client.terminal.ChatClientTerm
 
 
-Commands:
-=========
+Maven
+=====
 
 mvn package

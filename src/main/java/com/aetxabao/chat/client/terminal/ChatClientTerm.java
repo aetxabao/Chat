@@ -42,7 +42,7 @@ public class ChatClientTerm {
 
         client.login(client.username, client.password);
 
-        for (int i = 0; i < TIMEOUT && !client.isAuthorized(); i++) {
+        for (int i = 0; i < TIMEOUT && !client.isAuthorized() ; i++) {
             Thread.sleep(1000);
         }
 
