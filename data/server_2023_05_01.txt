@@ -1,0 +1,9 @@
+127.0.0.1:51310 LOGIN OK aitor
+127.0.0.1:51314 LOGIN ERROR
+127.0.0.1:51319 LOGIN OK mikel
+127.0.0.1:51310 aitor -> Kaixo!
+127.0.0.1:51319 mikel -> Hello!
+127.0.0.1:51310 aitor -> agur
+127.0.0.1:51310 LOGOUT aitor
+127.0.0.1:51319 mikel -> bye
+127.0.0.1:51319 LOGOUT mikel
